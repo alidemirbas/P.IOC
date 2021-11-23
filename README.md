@@ -11,5 +11,5 @@ ISubFoo instance = sameContainer.Get<ISubFoo>();
 int s = instance.Number;
 ```
 
-It's that much easy 😏 Check the IOCTest.cs file for more examples
+It's that much easy 😏 Check the IOCTest.cs file for more examples.
 https://github.com/alidemirbas/P.IOC/blob/master/IOCTest.cs
