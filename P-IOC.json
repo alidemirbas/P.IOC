@@ -1,0 +1,27 @@
+﻿//array* birden fazla container olabilir
+[
+  {
+    "containerName": "Test",
+    "typeConfigurations": [
+
+      {
+        "typeName": "P.Scribbling.ISubFoo",
+        "concreteTypeName": "P.Scribbling.SubFoo"
+      },
+      {
+        "typeName": "P.Scribbling.ISubFoo2",
+        "concreteTypeName": "P.Scribbling.SubFoo2"
+      },
+      {
+        "typeName": "P.Scribbling.IFoo",
+        "genericArgumentNames": [ "P.Scribbling.ISubFoo" ],
+        "concreteTypeName": "P.Scribbling.Foo"
+      },
+      {
+        "typeName": "P.Scribbling.IComplexFoo",
+        "genericArgumentNames": [ "P.Scribbling.ISubFoo", "P.Scribbling.ISubFoo2" ],
+        "concreteTypeName": "P.Scribbling.ComplexFoo"
+      }
+    ]
+  }
+]
