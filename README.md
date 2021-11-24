@@ -1,5 +1,5 @@
-Have you ever thought about how it would be if you tried to write IOC or how DI works?
-I guess it's something like that 🙄
+Have you ever thought about how it would be if you tried to write IOC or how DI works?  
+I guess it's something like that 🙄  
 
 ```csharp
 string containerName = "TestContainer";
@@ -14,5 +14,5 @@ ISubFoo instance = sameContainer.Get<ISubFoo>();
 int s = instance.Number;
 ```
 
-It's that much easy 😏 Check the IOCTest.cs file for more examples.
-https://github.com/alidemirbas/P.IOC/blob/master/IOCTest.cs
+It's that much easy 😏 Check the IOCTest.cs file for more examples.  
+https://github.com/alidemirbas/P.IOC/blob/master/IOCTest.cs  
