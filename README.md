@@ -1,4 +1,4 @@
-Have you ever thought about how it would be if you tried to write IOC or how DI works?  
+Have you ever thought about how it would be if you tried to write IOC library or how DI works?  
 I guess it's something like that 🙄  
 
 ```csharp
